@@ -4,7 +4,7 @@ const CAR_STEP_SIZE = 10
 let span = document.getElementById("result")
 let car = document.getElementById("car")
 
-document.body.onkeydown = function (event) {
+window.onkeydown = function (event) {
   span.innerText = event.key
 
   if (event.key === "ArrowDown") {

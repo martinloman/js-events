@@ -64,7 +64,7 @@ canvas.onmousemove = function (event) {
   ctx.beginPath()
   let coordX = event.offsetX
   let coordY = event.offsetY
-  console.log(coordX, coordY)
+  console.log(coordX, coordY, event.movementX)
   ctx.lineWidth = 5
 
   // Sets the end of the lines drawn
